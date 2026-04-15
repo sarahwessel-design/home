@@ -1,0 +1,107 @@
+.container {
+  position: fixed;
+  background: #d2cbd3;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  height: 100%;
+  padding-left: 32.5%;
+}
+
+.clickable-map {
+  position: absolute;
+  padding-left: 35%;
+  top: 0;
+  left: 33%;
+  height: 100%;
+}
+
+.bunnies {
+  position: absolute;
+  width: 30%;
+  height: 11.75vw;
+  top: 1%;
+  left: 2%;
+}
+
+.yarn {
+  width: 32%;
+  height: 15.95vw;
+  top: 1%;
+  left: 34%;
+  position: absolute;
+}
+
+.makeup {
+  width: 30%;
+  height: 12vw;
+  top: 1%;
+  left: 68%;
+  position: absolute;
+}
+
+.books {
+  position: absolute;
+  width: 30%;
+  height: 11.75vw;
+  top: 26%;
+  left: 2%;
+}
+
+.purse {
+  position: absolute;
+  width: 31%;
+  height: 15vw;
+  top: 35%;
+  left: 34.5%;
+}
+
+.photobook {
+  width: 30.5%;
+  height: 11.5vw;
+  top: 26.5%;
+  left: 67.5%;
+  position: absolute;
+}
+
+.music {
+  position: absolute;
+  width: 31%;
+  height: 11.25vw;
+  top: 51%;
+  left: 2%;
+}
+
+.outfits {
+  position: absolute;
+  width: 31%;
+  height: 15.5vw;
+  top: 67%;
+  left: 34.5%;
+}
+
+.perfume {
+  width: 30.5%;
+  height: 11.5vw;
+  top: 51%;
+  left: 67.5%;
+  position: absolute;
+}
+
+.art {
+  position: absolute;
+  width: 31%;
+  height: 11.25vw;
+  top: 75.5%;
+  left: 2%;
+}
+
+.culture {
+  width: 30.5%;
+  height: 11.5vw;
+  top: 75.5%;
+  left: 67.5%;
+  position: absolute;
+}
