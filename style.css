@@ -89,7 +89,7 @@
   margin: 0 2.5rem;
   -webkit-text-decoration: none !important;
   align-items: center;
-  z-index:9999;
+  z-index:9000;
 }
 
 .boxhome div:hover {
@@ -366,7 +366,7 @@ z-index: 1200;
   background-color: #3fb9ff;
   color: rgb(10, 10, 10);
   display: hide;
-  z-index: 7;
+  z-index: 9999;
 }
 
 .window4 {
@@ -395,7 +395,7 @@ z-index: 1200;
   background-color: #d4bdf6;
   color: rgb(10, 10, 10);
   display: hide;
-  z-index: 7;
+  z-index: 9999;
 }
 
 .bio-content {
@@ -429,7 +429,7 @@ z-index: 1200;
   box-sizing: border-box;
   background-color: #6AD9F1;
   color: rgb(10, 10, 10);
-  z-index: 1200;
+  z-index: 9999;
 }
 .pinterest {
   width: 485px;
