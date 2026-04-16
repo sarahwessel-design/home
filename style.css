@@ -1,6 +1,19 @@
-.container4everything{position: fixed;
+.boot-screen {
+  font-family: W95FA;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 100%;
-  width: 100%;}
+  background: #0000FF;
+  color: white;
+  font-family: ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
 
 .imageclass {
   position: relative;
@@ -67,7 +80,6 @@
 }
 
 .nav {
-  font-family: Arial, sans-serif;
   position: absolute;
   background-color: #d4bdf6;
   padding-top: 10px;
@@ -89,7 +101,7 @@
   margin: 0 2.5rem;
   -webkit-text-decoration: none !important;
   align-items: center;
-  z-index:9000;
+  z-index: 600;
 }
 
 .boxhome div:hover {
@@ -243,7 +255,7 @@ a:hover {
 
 .window {
   position: absolute;
-z-index: 500;
+z-index:7;
   width: 400px;
   height: 200px;
   left: 200px;
@@ -338,7 +350,7 @@ z-index: 500;
   background-color: #af7cff;
   color: rgb(10, 10, 10);
   display: hide;
-  z-index: 9999;
+  z-index: 700;
 }
 .window6 {
   position: fixed;
@@ -366,7 +378,7 @@ z-index: 500;
   background-color: #3fb9ff;
   color: rgb(10, 10, 10);
   display: hide;
-  z-index: 9999;
+  z-index: 700;
 }
 
 .window4 {
@@ -395,7 +407,7 @@ z-index: 500;
   background-color: #d4bdf6;
   color: rgb(10, 10, 10);
   display: hide;
-  z-index: 9999;
+  z-index: 700;
 }
 
 .bio-content {
@@ -429,7 +441,7 @@ z-index: 500;
   box-sizing: border-box;
   background-color: #6AD9F1;
   color: rgb(10, 10, 10);
-  z-index: 9999;
+  z-index: 7;
 }
 .pinterest {
   width: 485px;
