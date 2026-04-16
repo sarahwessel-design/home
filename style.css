@@ -243,7 +243,7 @@ a:hover {
 
 .window {
   position: absolute;
-
+z-index: 1200;
   width: 400px;
   height: 200px;
   left: 200px;
@@ -338,7 +338,7 @@ a:hover {
   background-color: #af7cff;
   color: rgb(10, 10, 10);
   display: hide;
-  z-index: 7;
+  z-index: 1200;
 }
 .window6 {
   position: fixed;
