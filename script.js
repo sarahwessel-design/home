@@ -1,3 +1,37 @@
+setTimeout(function () {
+  $("#bootScreen").fadeOut(800, function () {
+    $(this).remove(); // 💥 completely removes it from DOM
+  });
+
+  $(".window").fadeIn(800);
+}, 2000);
+
+$("#startYes").click(function () {
+  $(".window").hide();
+  $(".loading").show();
+
+  setTimeout(function () {
+    $(".loading").hide();
+    $(".nav").fadeIn();
+    $(".imageclass").fadeIn();
+  }, 1500);
+});
+
+$("#startYes").click(function () {
+  console.log("YES CLICKED");
+});
+$(document).ready(function () {
+  setTimeout(function () {
+    $("#bootScreen").fadeOut(800);
+    $(".window").fadeIn(800); // your intro window
+  }, 2000);
+});
+
+$("#myButton").click(function (e) {
+  e.preventDefault(); // 🔥 THIS LINE FIXES IT
+  $("#myProjects").toggle();
+});
+
 $(document).ready(function () {
   $("#myButton").click(function () {
     $("#myProjects").toggle();
@@ -84,3 +118,4 @@ $(document).ready(function () {
     $("#myBio").toggle();
   });
 });
+
