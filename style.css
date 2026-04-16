@@ -429,7 +429,7 @@ a:hover {
   box-sizing: border-box;
   background-color: #6AD9F1;
   color: rgb(10, 10, 10);
-  z-index: 7;
+  z-index: 1200;
 }
 .pinterest {
   width: 485px;
